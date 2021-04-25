@@ -80,7 +80,7 @@ Male & 250 & 800 \\ \hline
 
 \item Using the approximation $E(\bar y_r ) = \frac{E[ \sum_{i=1}^n r_i y_i ]}{ E [ \sum_{i=1}^n r_i]}$, show that $E(\bar y_r) = \frac{1}{N} \frac{\sum_{i=1}^N P_i Y_i}{\bar P}$ where expectation is with respect to both the sample design under SRS and with respect to the response indicator $R_i \sim \text{Bernoulli} (P_i)$ {[5 pt]}
 
-\item Using the result from a) show that $B(\bar y_r) = \frac{C(Y,P)}{P}$ {\bf [5 pt]}
+\item Using the result from a) show that $B(\bar y_r) = \frac{C(Y,P)}{\bar P}$ {\bf [5 pt]}
 
 \end{enumerate}
 
@@ -95,7 +95,7 @@ Male & 250 & 800 \\ \hline
 
 \end{enumerate}
 
-\item A health survey is conducted using obtaining using a stratified, multistage design, where four geographic stratum are formed (northeast, northwest, southeast, southwest) and 3-5 PSUs are sampled in each stratum, with probability proportional to size. Within each PSU and equal number of households are sampled, and households screened so that low-income households are sampled at twice the rate of non-low-income households. Finally one adult is selected at random (based on who has the last birthday). The data have been collected over the web using address-based sampling, so we know the PSU and stratum in which they reside at the time of sampling, but nothing else.
+\item A health survey is conducted using a stratified, multistage design, where four geographic stratum are formed (northeast, northwest, southeast, southwest) and 3-5 PSUs are sampled in each stratum, with probability proportional to size. Within each PSU and equal number of households are sampled, and households screened so that low-income households are sampled at twice the rate of non-low-income households. Finally one adult is selected at random (based on who has the last birthday). The data have been collected over the web using address-based sampling, so we know the PSU and stratum in which they reside at the time of sampling, but nothing else.
 \vspace{0.5cm}
 
 You are given data in health.dat to analyze that contains the following information: selfreported measure of health (excellent=5, very good=4, good=3, fair=2, poor=1), along with gender, number of adults in the household, an indicator for whether or not the household in low income, the PSU, and the stratum. For the non-responding households, you are given data only on the PSU and stratum of the sampled household. You know the following distribution of the population from Census counts:
