@@ -221,7 +221,7 @@ include_graphics("./figs/l17_fig1.png") # place holder
 * $R_1 = 702$: sample unit 3, sample 18 of 127 employees
 * $R_2 = 1744$: sample unit 7, sample 18 of 64 employees
 
-## PP sampling with first-stage systematic sampling
+## PPS sampling with first-stage systematic sampling
 
 1. Select a random start $R$ between $1$ and $N/k$
 2. Find first cluster with cumulative sume exceeding $R$
