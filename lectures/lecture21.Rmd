@@ -216,9 +216,9 @@ where $\nu_h = n_h/n_h^\prime$ is the second stage sampling fraction (also possi
 Since the $n_h^\prime$ are random variables, we need to minimize with respect to the expected cost
 $$
 \begin{aligned}
-C^\star &= E \left( c^\prime n^\prime + \sum_h c_h \nu_h n_h^\prime \right) \\
-&= c^\prime n^\prime + \sum_h c_h \nu_h E (n_h^\prime) \\
-&= c^\prime n^\prime + \sum_h c_h \nu_h P_h
+C^\star &= E \left( n^\prime (c^\prime + \sum_h c_h \nu_h n_h^\prime) \right) \\
+&= n^\prime (c^\prime + \sum_h c_h \nu_h E (n_h^\prime)) \\
+&= n^\prime (c^\prime n^\prime + \sum_h c_h \nu_h P_h)
 \end{aligned}
 $$
 which is a function of the chosen $n^\prime$ and $\nu_h$.
