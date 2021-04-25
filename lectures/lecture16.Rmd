@@ -439,7 +439,7 @@ $$
 ## Example: step (C)
 
 * Add $N^{-1} \sum_{i=1}^k w_{is} v( \hat Y_i \mid i \in s)$
-* Here $w_is \equiv (kM)^{-1}$ and $v( \hat Y_i \mid i \in s) = M^2 \left( 1 - \frac{m}{M} \right) \frac{S_i^2}{m}$
+* Here $w_{is} \equiv (kM)^{-1}$ and $v( \hat Y_i \mid i \in s) = M^2 \left( 1 - \frac{m}{M} \right) \frac{S_i^2}{m}$
 * So 
 $$
 \begin{aligned}
