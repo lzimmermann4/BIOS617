@@ -24,7 +24,7 @@ library(pps)
 ## Poststratification
 
 * There may be information available about a population that either cannot be accessed in the sampling frame (but is obtainable from the sampled unit), or may be known in the frame but set aside as less important than other variables that will be used for stratification. 
-* We discussed poststratification previously in the context of SRS sampling. In more general setting, the poststratified estimator replaces the unweighted poststratum mean with the weighted postratum mean:
+* We discussed poststratification previously in the context of SRS sampling. In more general setting, the poststratified estimator replaces the unweighted poststratum mean with the weighted poststratum mean:
 $$
 \bar y_{ps} = \sum_{h=1}^H P_h \bar y_h = N^{-1} \sum_{h=1}^H N_h \bar y_h
 $$
